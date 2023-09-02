@@ -1,0 +1,47 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Trickl RestFul API",
+      "description": "Crud operations",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/api/items": {
+        "get": {
+          "summary": "Get all items",
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        },
+        "post": {
+          "summary": "Create a new item",
+          "responses": {
+            "201": {
+              "description": "Item created"
+            }
+          }
+        }
+      },
+      "/api/items/{id}": {
+        "put": {
+          "summary": "Update an item by ID",
+          "responses": {
+            "200": {
+              "description": "Item updated"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Delete an item by ID",
+          "responses": {
+            "200": {
+              "description": "Item deleted"
+            }
+          }
+        }
+      }
+    }
+  }
+  
