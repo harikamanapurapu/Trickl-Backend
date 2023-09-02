@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "6ac3d43b-472b-4045-bf1a-9e3ab60772e7",
+		"name": "Trickle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28606772"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/api/item",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Trickle",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "backend crud operations",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/items",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "task ",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "crud",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/api/item",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"item"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "trickle assignment",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Backend crud operations",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/items/64f2c2632b1840944b692cf8",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"items",
+						"64f2c2632b1840944b692cf8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Trickle",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "backend crud ",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/items/64f2c5e54fa679dbe3bf8342",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"items",
+						"64f2c5e54fa679dbe3bf8342"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
